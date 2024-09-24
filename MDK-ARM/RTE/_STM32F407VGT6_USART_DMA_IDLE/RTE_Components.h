@@ -3,8 +3,8 @@
  * Auto generated Run-Time-Environment Configuration File
  *      *** Do not modify ! ***
  *
- * Project: 'STM32_USART_DMA_IDLE' 
- * Target:  'STM32_USART_DMA_IDLE' 
+ * Project: 'STM32F407VGT6_USART_DMA_IDLE' 
+ * Target:  'STM32F407VGT6_USART_DMA_IDLE' 
  */
 
 #ifndef RTE_COMPONENTS_H

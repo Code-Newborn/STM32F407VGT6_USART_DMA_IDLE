@@ -38,9 +38,9 @@ extern UART_HandleTypeDef huart1;
 
 #define UART1_RECIVE_MAX 100
 
-extern uint8_t g_uart1_rx_complete;
+extern uint8_t  g_uart1_rx_complete;
 extern uint16_t Uart1ReciveDataSize;
-extern uint8_t  Uart1ReciveBuff[UART1_RECIVE_MAX];
+extern uint8_t  Uart1ReciveBuff[ UART1_RECIVE_MAX ];
 
 /* USER CODE END Private defines */
 

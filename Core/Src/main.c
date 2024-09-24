@@ -100,11 +100,6 @@ int main( void ) {
     while ( 1 ) {
         /* USER CODE END WHILE */
 
-        if ( g_uart1_rx_complete == 1 ) {
-            g_uart1_rx_complete = 0;
-            HAL_UART_Transmit_DMA( &huart1, Uart1ReciveBuff, Uart1ReciveDataSize );  // 将接收的数据进行回显
-        }
-
         /* USER CODE BEGIN 3 */
     }
     /* USER CODE END 3 */
